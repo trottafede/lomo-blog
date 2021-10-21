@@ -82,4 +82,8 @@ nav i {
     padding-right: 0.8rem;
     color: var(--lettersColor);
   }
+
+  nav i:hover {
+    color: var(--hover-items);
+  }
 }

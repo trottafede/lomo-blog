@@ -127,7 +127,8 @@ main h1 {
 
   .singleBlog img {
     width: auto;
-    height: 100px;
+    height: 150px;
+    border-bottom-left-radius: 0;
   }
   .singleBlog h3 {
     text-align: center;
