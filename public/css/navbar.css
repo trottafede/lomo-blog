@@ -1,5 +1,25 @@
 /* Dispositivos re chiquitos */
-@media (max-width: 574px) {
+header {
+  background-color: var(--main-bg-color);
+  color: var(--lettersColor);
+}
+
+header h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 20px 0;
+}
+
+header i {
+  margin-left: 10px;
+}
+nav i {
+  font-size: 1.5rem;
+  color: var(--lettersColor);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
   header {
     background-color: var(--main-bg-color);
     color: var(--lettersColor);
@@ -14,37 +34,10 @@
   header i {
     margin-left: 10px;
   }
+
   nav i {
     font-size: 1.5rem;
     color: var(--lettersColor);
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  header {
-    background-color: var(--main-bg-color);
-    color: var(--lettersColor);
-  }
-
-  header h1 {
-    text-align: center;
-    font-size: 3rem;
-  }
-  /* Navbar */
-  nav {
-    padding: 2rem !important;
-  }
-
-  nav i {
-    font-size: 1.2rem;
-    padding-right: 0.8rem;
-    color: var(--lettersColor);
-  }
-
-  nav i:hover {
-    color: var(--hover-items);
-    font-size: 1.33rem;
   }
 }
 
@@ -57,22 +50,17 @@
 
   header h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.7rem;
+    padding: 20px 0;
   }
-  /* Navbar */
-  nav {
-    padding: 2rem !important;
+
+  header i {
+    margin-left: 10px;
   }
 
   nav i {
-    font-size: 1.2rem;
-    padding-right: 0.8rem;
+    font-size: 1.5rem;
     color: var(--lettersColor);
-  }
-
-  nav i:hover {
-    color: var(--hover-items);
-    font-size: 1.33rem;
   }
 }
 
@@ -85,21 +73,13 @@
 
   header h1 {
     text-align: center;
-    font-size: 3rem;
-  }
-  /* Navbar */
-  nav {
-    padding: 2rem !important;
+    font-size: 2rem;
+    padding: 20px 0;
   }
 
   nav i {
     font-size: 1.2rem;
     padding-right: 0.8rem;
     color: var(--lettersColor);
-  }
-
-  nav i:hover {
-    color: var(--hover-items);
-    font-size: 1.33rem;
   }
 }

@@ -10,7 +10,39 @@
 }
 
 /* Dispositivos re chiquitos */
-@media (max-width: 574px) {
+main h1 {
+  margin: 20px 0;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.singleBlog {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.singleBlog img {
+  width: 300px;
+  height: auto;
+  max-height: 520px;
+  border-bottom-left-radius: 100px;
+}
+
+.singleBlog h3 {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.singleBlog p {
+  font-size: 0.94rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
   main h1 {
     margin: 20px 0;
   }
@@ -28,7 +60,7 @@
   }
 
   .singleBlog img {
-    width: 300px;
+    width: 500px;
     height: auto;
     max-height: 520px;
     border-bottom-left-radius: 100px;
@@ -40,6 +72,40 @@
   }
   .singleBlog p {
     font-size: 0.94rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  main h1 {
+    margin: 20px 0;
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .singleBlog {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .singleBlog img {
+    width: 500px;
+    height: auto;
+    max-height: 520px;
+    border-bottom-left-radius: 100px;
+  }
+
+  .singleBlog h3 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .singleBlog p {
+    font-size: 1.1rem;
   }
 }
 /* Large devices (desktops, 992px and up) */
