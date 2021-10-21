@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="icon" href="/img/dog.png" />
-
     <link rel="stylesheet" href="/css/styles.css" />
     <!-- Bootstrap css -->
     <link
@@ -37,7 +36,12 @@
           <div class="col-lg-3 singleBlog">
             <div>
               <div class="imgContainer">
-                <img src="<%- singleBlog.image %>" alt="" />
+                <a href="/articulo/<%- singleBlog.id %>">
+                  <img
+                    src="<%- singleBlog.image %>"
+                    alt="<%- singleBlog.author %>"
+                  />
+                </a>
               </div>
               <h3><%- singleBlog.title %></h3>
               <p><%- singleBlog.content.substr(0,150)%></p>

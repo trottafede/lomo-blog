@@ -4,7 +4,7 @@
 :root {
   --main-bg-color: rgba(238, 2, 187, 0.932);
   --second-bg-color: #fff;
-  --hover-items: red;
+  --hover-items: blue;
   --card-bg: #000;
   --lettersColor: #fff;
 }
@@ -129,6 +129,15 @@ main h1 {
     width: auto;
     height: 150px;
     border-bottom-left-radius: 0;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  .singleBlog img:hover {
+    z-index: 100;
+    position: relative;
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+    box-shadow: 0 0 9px 1px #000;
+    border: 1 px solid #e9e9e9;
   }
   .singleBlog h3 {
     text-align: center;
